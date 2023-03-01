@@ -1,0 +1,33 @@
+@import "./_variables";
+
+.main {
+  position: fixed;
+  left: auto;
+  right: auto;
+  bottom: 2rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+
+  opacity: 0;
+
+  .content {
+    display: flex;
+    flex-direction: column;
+
+    padding: 0.5rem 1rem;
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(20px);
+    border: $border-standard;
+    border-radius: 0.5rem;
+
+    .dud {
+      opacity: 0.5;
+      /* background-color: #C2C2C2; */
+    }
+  }
+}

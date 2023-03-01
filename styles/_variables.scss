@@ -1,0 +1,117 @@
+/* COLORS */
+$color-100: #ffffff; // pure white
+$color-200: #efece6; // sand
+$color-300: #e7e4de; // marble
+$color-400: #bfbcb7; // clay
+$color-500: #8e8c87; // concrete
+$color-600: #302f2f; // iron
+$color-700: #1a1a1a; // carbon
+$color-800: #000000; // pure black
+
+$color-border: $color-600; // border
+$color-border-hover: $color-700; // border hover
+
+$color-accent: #ed5145; // fire opal
+$color-red: #ba3d2c; // terracotta
+$color-green: #5fb477; // grass
+$color-green-dark: #14291A; // grass
+$color-yellow: #ebdb78; // sun
+
+/* SHADOW */
+$shadow-standard: rgba(26, 26, 26, 0.4) 0px 8px 24px;
+$shadow-button-main: 0px 4px 4px rgba(0, 0, 0, 0.05),
+  inset 0px 0px 20px -1px rgba(255, 122, 112, 0.5),
+  inset 0px 4px 20px -1px #ff7a70;
+
+/* FONTS */
+$font-primary: "Muoto";
+$font-secondary: "GT America Mono";
+
+/* FONT SIZE */
+$font-size-000: clamp(10px, 1vw, 10px); // disclosure
+$font-size-100: clamp(12px, 2vw, 12px); // tertiary
+$font-size-150: clamp(16px, 1vw, 18px); // links
+$font-size-200: clamp(16px, 2vw, 20px); // body
+$font-size-300: clamp(24px, 4vw, 32px); // subheader
+$font-size-400: clamp(40px, 6vw, 72px); // secondary
+$font-size-500: clamp(48px, 7vw, 90px); // primary
+$font-size-600: clamp(64px, 8vw, 120px); // hero
+
+/* FONT WEIGHT */
+$font-weight-100: 300;
+$font-weight-200: 400;
+$font-weight-300: 500;
+
+/* SPACING */
+$spacing-50: 0.5rem;
+$spacing-100: 1rem;
+$spacing-200: 2rem;
+$spacing-300: 6rem;
+$spacing-400: 8rem;
+$spacing-500: 10rem;
+
+/* PADDING */
+$padding-100: 10px;
+$padding-200: 20px;
+$padding-300: 30px;
+$padding-400: 50px;
+$padding-500: 100px;
+
+/* BORDERS */
+$border-radius-100: 3px;
+$border-radius-200: 8px;
+$border-radius-300: 16px;
+$border-radius-400: 24px;
+
+$border-standard: 1px solid rgba(255, 255, 255, 0.1);
+$border-standard-hover: 1px solid $color-border;
+
+/* HOVER STATES */
+$hover-opacity: 0.76;
+
+/* ANIMATIONS */
+$animation-duration: 0.4s;
+$animation-duration-short: 0.2s;
+$animation-duration-medium: 0.6s;
+$animation-duration-long: 1s;
+$animation-delay: 1.25s;
+$animation-timing: cubic-bezier(0.33, 1, 0.68, 1);
+
+/* FOR REACT */
+:export {
+  /* COLORS */
+  color100: $color-100;
+  color200: $color-200;
+  color300: $color-300;
+  color400: $color-400;
+  color500: $color-500;
+  color600: $color-600;
+  color700: $color-700;
+  color800: $color-800;
+
+  colorAccent: $color-accent;
+  colorRed: $color-red;
+  colorGreen: $color-green;
+  colorGreenDark: $color-green-dark;
+  colorYellow: $color-yellow;
+
+  /* SPACING */
+  spacing100: $spacing-100;
+  spacing200: $spacing-200;
+  spacing300: $spacing-300;
+  spacing400: $spacing-400;
+  spacing500: $spacing-500;
+
+  /* PADDING */
+  padding100: $padding-100;
+  padding200: $padding-200;
+  padding300: $padding-300;
+  padding400: $padding-400;
+  padding500: $padding-500;
+
+  /* ANIMATION */
+  animationDuration: $animation-duration;
+  animationDurationLong: $animation-duration-long;
+  animationDelay: $animation-delay;
+  animationTiming: $animation-timing;
+}

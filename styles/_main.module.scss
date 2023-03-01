@@ -1,0 +1,171 @@
+@import "./_variables";
+
+.main {
+  color: $color-200;
+  background: $color-800;
+
+  div[invert] {
+    color: $color-800;
+    background: $color-200;
+  }
+
+  // HERO //
+  h1 {
+    font-size: $font-size-600;
+    font-weight: $font-weight-100;
+
+    line-height: 1.15em;
+    letter-spacing: -0.02em;
+    white-space: pre-line;
+
+    color: $color-200;
+    overflow: hidden;
+  }
+  h1[invert] {
+    color: $color-700;
+  }
+
+  // PRIMARY //
+  h2 {
+    font-size: $font-size-500;
+    font-weight: $font-weight-100;
+
+    line-height: 1.15em;
+    letter-spacing: -0.01em;
+
+    color: $color-200;
+  }
+  h2[invert] {
+    color: $color-700;
+  }
+
+  // SECONDARY //
+  h3 {
+    font-size: $font-size-400;
+    font-weight: $font-weight-100;
+
+    line-height: 1.15em;
+    letter-spacing: -0.01em;
+
+    color: $color-200;
+  }
+  h3[invert] {
+    color: $color-700;
+  }
+
+  // SUB SECONDARY //
+  h4 {
+    font-size: $font-size-300;
+    font-weight: $font-weight-100;
+
+    line-height: 1.4em;
+    letter-spacing: -0.01em;
+
+    color: $color-400;
+  }
+  h4[invert] {
+    color: $color-500;
+  }
+
+  // BODY HEADER //
+  h5 {
+    font-size: $font-size-200;
+    font-weight: $font-weight-100;
+
+    line-height: 1.4em;
+
+    color: $color-200;
+  }
+  h5[invert] {
+    color: $color-700;
+  }
+
+  // HEADER HYPERLINKS //
+  h5 a {
+    font-size: $font-size-200;
+    font-weight: $font-weight-100;
+
+    line-height: 1.4em;
+
+    color: $color-100;
+  }
+
+  // BODY //
+  p {
+    font-size: $font-size-200;
+    font-weight: $font-weight-100;
+
+    line-height: 1.4em;
+
+    color: $color-400;
+  }
+  p[invert] {
+    color: $color-500;
+  }
+
+  // HYPERLINKS //
+  p a {
+    font-size: $font-size-200;
+    font-weight: $font-weight-100;
+
+    line-height: 1.4em;
+    text-decoration: underline;
+
+    color: $color-100;
+  }
+
+  // LINKS //
+  a {
+    font-size: $font-size-150;
+    font-weight: $font-weight-200;
+
+    line-height: 1.4em;
+
+    color: $color-500;
+  }
+  a[invert] {
+    color: $color-400;
+  }
+
+  // TERTIARY //
+  strong {
+    font-family: $font-secondary;
+    font-size: $font-size-100;
+    font-weight: $font-weight-200;
+
+    line-height: 1.15em;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    text-align: center;
+
+    color: $color-400;
+  }
+  strong[invert] {
+    color: $color-500;
+  }
+
+  // DISCLOSURE //
+  small {
+    font-size: $font-size-100;
+    font-weight: $font-weight-200;
+
+    color: $color-500;
+  }
+  small[invert] {
+    color: $color-400;
+  }
+
+  // SMALL HYPERLINKS //
+  small a {
+    font-size: $font-size-100;
+    font-weight: $font-weight-200;
+
+    color: $color-500;
+  }
+
+  hr {
+    width: 100%;
+
+    border-color: $color-border;
+  }
+}

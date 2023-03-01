@@ -1,0 +1,14 @@
+.main {
+  position: fixed;
+
+  width: 1.5rem;
+  height: 1.5rem;
+
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 50%;
+  box-shadow: rgba(204, 219, 232, 0.2) 1px 1px 2px 0px inset, rgba(255, 255, 255, 0.1) -1px -1px 2px 1px inset;
+
+  z-index: 10000;
+  opacity: 1;
+}
